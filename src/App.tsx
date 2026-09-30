@@ -13,6 +13,9 @@ import IntentFields from '@/pages/IntentFields';
 import { IntentPolicyLoader } from '@/components/IntentPolicyLoader';
 import IntentsAdmin from '@/pages/IntentsAdmin';
 // <custom:imports>
+const IntentAlphaMitBetaVerknuepfenPage = lazy(() => import('@/pages/intents/AlphaMitBetaVerknuepfenPage'));
+import { DashboardSkeleton } from '@/components/DashboardStates';
+const IntentBetaMitAlphaVerknuepfenPage = lazy(() => import('@/pages/intents/BetaMitAlphaVerknuepfenPage'));
 // </custom:imports>
 
 // Lazy: public pages live outside <Layout> and only load on /#/public/:slug —
@@ -83,6 +86,8 @@ export default function App() {
                 <Route path="verwaltung/oeffentliche-seiten" element={<PublicPagesAdmin />} />
                 <Route path="verwaltung/oeffentliche-seiten/:slug/felder" element={<PublicPageFields />} />
                 {/* <custom:routes> */}
+                <Route path="intents/alpha-mit-beta" element={<Suspense fallback={<DashboardSkeleton />}><IntentAlphaMitBetaVerknuepfenPage /></Suspense>} />
+                <Route path="intents/beta-mit-alpha" element={<Suspense fallback={<DashboardSkeleton />}><IntentBetaMitAlphaVerknuepfenPage /></Suspense>} />
                 {/* </custom:routes> */}
                 {/* An unknown hash (a bookmark from before a rebuild renamed the
                     flows, a mistyped link) must not be a blank page. */}

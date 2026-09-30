@@ -20,6 +20,7 @@
 import type { ComponentType } from 'react';
 
 // <custom:intent-imports>
+import { IconLink, IconPlugConnected } from '@tabler/icons-react';
 // </custom:intent-imports>
 
 export interface IntentLink {
@@ -42,6 +43,8 @@ export interface IntentLink {
 
 export const INTENTS: IntentLink[] = [
   // <custom:intents>
+  { path: '/intents/alpha-mit-beta', label: { de: 'Alpha verknüpfen', en: 'Link Alpha' }, icon: IconLink, description: 'Neuen Alpha-Eintrag anlegen und mit einem Beta-Eintrag verknüpfen' },
+  { path: '/intents/beta-mit-alpha', label: { de: 'Beta verknüpfen', en: 'Link Beta' }, icon: IconPlugConnected, description: 'Neuen Beta-Eintrag anlegen und mit einem Alpha-Eintrag verknüpfen' },
   // </custom:intents>
 ];
 
@@ -52,7 +55,7 @@ export const INTENTS: IntentLink[] = [
  * purpose — a scaffold update resets it to false (self-healing if Phase 2
  * never ran).
  */
-export const INTENTS_PENDING = true;
+export const INTENTS_PENDING = false;
 
 /**
  * When the Phase-1 bundle was deployed (ISO, set by the service together with
