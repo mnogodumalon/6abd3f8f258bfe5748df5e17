@@ -1,0 +1,3 @@
+2 apps linked with cyclic applookups
+a->b 
+b->a

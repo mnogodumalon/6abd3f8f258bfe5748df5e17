@@ -1,0 +1,36 @@
+{
+  "pages": {
+    "en": {
+      "Alle Alpha-Einheiten sind verknüpft.": "All Alpha units are linked.",
+      "Alle Beta-Einheiten sind verknüpft.": "All Beta units are linked.",
+      "Alle {0} Alpha-Einheiten sind verknüpft — {1} Beta-Einheiten im System.": "All {0} Alpha units are linked — {1} Beta units in the system.",
+      "Alpha gesamt": "Total Alpha",
+      "Alpha verknüpft": "Linked Alpha",
+      "Alpha-Eintrag": "Alpha Entry",
+      "Beta gesamt": "Total Beta",
+      "Beta-Eintrag": "Beta Entry",
+      "Erste Alpha anlegen": "Create First Alpha",
+      "Erste Beta anlegen": "Create First Beta",
+      "Erstelle Alpha- und Beta-Einheiten und verknüpfe sie gegenseitig miteinander.": "Create Alpha and Beta units and link them to each other.",
+      "Kein Beta-Eintrag": "No Beta Entry",
+      "Neu": "New",
+      "Neue Alpha": "New Alpha",
+      "Neue Alpha anlegen": "Create New Alpha",
+      "Nicht verknüpft": "Not Linked",
+      "Noch keine Alpha-Einheiten vorhanden.": "No Alpha units yet.",
+      "Noch keine Beta-Einheiten vorhanden.": "No Beta units yet.",
+      "Noch keine Einträge vorhanden — lege die ersten Einheiten an.": "No entries yet — create the first units.",
+      "Ohne Namen": "Unnamed",
+      "Ohne Verknüpfung": "Without Link",
+      "Unverknüpfte Alpha": "Unlinked Alpha",
+      "Verknüpfen": "Link",
+      "Verknüpft": "Linked",
+      "Verknüpfung herstellen": "Create Link",
+      "Verknüpfungsstatus Alpha": "Alpha Link Status",
+      "Zyklische Verknüpfungen einrichten": "Set Up Cyclic Links",
+      "{0} noch nicht verknüpft — {1} Einheit{2} ohne Gegenstück.": "{0} not yet linked — {1} unit{2} without a counterpart.",
+      "{0} noch nicht verknüpft — {1} von {2} Alpha-Einheiten verbunden.": "{0} not yet linked — {1} of {2} Alpha units connected."
+    }
+  },
+  "v": 1
+}

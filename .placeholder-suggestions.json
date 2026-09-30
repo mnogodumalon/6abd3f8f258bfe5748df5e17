@@ -1,0 +1,12 @@
+{
+  "EinheitAlphaDialog.tsx": {
+    "name_alpha": "z. B. Projekt Gamma",
+    "beschreibung_alpha": "Notizen, Hintergrund...",
+    "beta_eintrag": "Einen Beta-Eintrag wählen"
+  },
+  "EinheitBetaDialog.tsx": {
+    "name_beta": "z. B. Komponente 1",
+    "beschreibung_beta": "Notizen, Details...",
+    "alpha_eintrag": "Einen Alpha-Eintrag wählen"
+  }
+}

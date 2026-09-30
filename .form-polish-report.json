@@ -1,0 +1,16 @@
+{
+  "entities": {
+    "Einheit Alpha": {
+      "placeholders_set": 3,
+      "defaults_keys": [],
+      "computed_keys": [],
+      "reason": "Reine Stammdaten — keine Number-, Datums- oder berechenbaren Felder vorhanden. applookup auf Einheit Beta ohne Preis-Ziel. Keine Berechnung möglich."
+    },
+    "Einheit Beta": {
+      "placeholders_set": 3,
+      "defaults_keys": [],
+      "computed_keys": [],
+      "reason": "Reine Stammdaten — keine Number-, Datums- oder berechenbaren Felder vorhanden. applookup auf Einheit Alpha ohne Preis-Ziel. Keine Berechnung möglich."
+    }
+  }
+}

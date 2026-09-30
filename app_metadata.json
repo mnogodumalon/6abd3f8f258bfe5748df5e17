@@ -1,0 +1,118 @@
+{
+  "appgroup_id": "6abd3f8f258bfe5748df5e17",
+  "appgroup_name": "Zyklische Verknüpfung",
+  "apps": {
+    "einheit_alpha": {
+      "app_id": "6abd3e5f73aefa2de53378f5",
+      "name": "Einheit Alpha",
+      "main": false,
+      "controls": {
+        "name_alpha": {
+          "identifier": "name_alpha",
+          "label": "Name",
+          "type": "string",
+          "subtype": "text",
+          "fulltype": "string/text",
+          "description": "A string value not longer than 4000 characters (or `null`/`None`).",
+          "required": true,
+          "in_list": true,
+          "in_mobile_list": true,
+          "in_text": true,
+          "in_structured_search": null,
+          "in_fulltext_search": true,
+          "in_expert_search": true
+        },
+        "beschreibung_alpha": {
+          "identifier": "beschreibung_alpha",
+          "label": "Beschreibung",
+          "type": "string",
+          "subtype": "textarea",
+          "fulltype": "string/textarea",
+          "description": "A string value that can contain multiple lines of text (or `null`/`None`).",
+          "required": false,
+          "in_list": true,
+          "in_mobile_list": true,
+          "in_text": false,
+          "in_structured_search": null,
+          "in_fulltext_search": true,
+          "in_expert_search": true
+        },
+        "beta_eintrag": {
+          "identifier": "beta_eintrag",
+          "label": "Verknüpfter Beta-Eintrag",
+          "type": "applookup",
+          "subtype": "select",
+          "fulltype": "applookup/select",
+          "description": "A reference to a LivingApp record from the target lookup app 'Einheit Beta' with the id `6abd3e62e41a830f98d5e8b8` (or `null`/`None`).\n\nThe field value will be a valid record URL in the form `https://my.living-apps.de/rest/apps/6abd3e62e41a830f98d5e8b8/records/<record-id>` (or `null`/`None`).\n\nWhen writing, either pass a record URL through exactly as this API returned it, or send the portable relative form `/apps/6abd3e62e41a830f98d5e8b8/records/<record-id>`. Other equivalent record-URL forms are accepted as well.\n\nDisplayed as single-select field in HTML pages.",
+          "required": false,
+          "in_list": true,
+          "in_mobile_list": false,
+          "in_text": true,
+          "in_structured_search": null,
+          "in_fulltext_search": true,
+          "in_expert_search": true,
+          "lookup_app": "https://my.living-apps.de/rest/apps/6abd3e62e41a830f98d5e8b8"
+        }
+      }
+    },
+    "einheit_beta": {
+      "app_id": "6abd3e62e41a830f98d5e8b8",
+      "name": "Einheit Beta",
+      "main": false,
+      "controls": {
+        "name_beta": {
+          "identifier": "name_beta",
+          "label": "Name",
+          "type": "string",
+          "subtype": "text",
+          "fulltype": "string/text",
+          "description": "A string value not longer than 4000 characters (or `null`/`None`).",
+          "required": true,
+          "in_list": true,
+          "in_mobile_list": true,
+          "in_text": true,
+          "in_structured_search": null,
+          "in_fulltext_search": true,
+          "in_expert_search": true
+        },
+        "beschreibung_beta": {
+          "identifier": "beschreibung_beta",
+          "label": "Beschreibung",
+          "type": "string",
+          "subtype": "textarea",
+          "fulltype": "string/textarea",
+          "description": "A string value that can contain multiple lines of text (or `null`/`None`).",
+          "required": false,
+          "in_list": true,
+          "in_mobile_list": true,
+          "in_text": false,
+          "in_structured_search": null,
+          "in_fulltext_search": true,
+          "in_expert_search": true
+        },
+        "alpha_eintrag": {
+          "identifier": "alpha_eintrag",
+          "label": "Verknüpfter Alpha-Eintrag",
+          "type": "applookup",
+          "subtype": "select",
+          "fulltype": "applookup/select",
+          "description": "A reference to a LivingApp record from the target lookup app 'Einheit Alpha' with the id `6abd3e5f73aefa2de53378f5` (or `null`/`None`).\n\nThe field value will be a valid record URL in the form `https://my.living-apps.de/rest/apps/6abd3e5f73aefa2de53378f5/records/<record-id>` (or `null`/`None`).\n\nWhen writing, either pass a record URL through exactly as this API returned it, or send the portable relative form `/apps/6abd3e5f73aefa2de53378f5/records/<record-id>`. Other equivalent record-URL forms are accepted as well.\n\nDisplayed as single-select field in HTML pages.",
+          "required": false,
+          "in_list": true,
+          "in_mobile_list": false,
+          "in_text": true,
+          "in_structured_search": null,
+          "in_fulltext_search": true,
+          "in_expert_search": true,
+          "lookup_app": "https://my.living-apps.de/rest/apps/6abd3e5f73aefa2de53378f5"
+        }
+      }
+    }
+  },
+  "metadata": {
+    "apps_list": [
+      "Einheit Alpha",
+      "Einheit Beta"
+    ]
+  }
+}
